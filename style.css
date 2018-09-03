@@ -101,7 +101,7 @@ body {
 #mute {
   position: absolute;
   top: 171px;
-  left: 254px;
+  left: 251px;
   background-color: transparent;
   border: none;
   display: flex;
@@ -117,7 +117,6 @@ body {
 
 #mute:hover > * {
   cursor: pointer;
-  font-size: 16px;
 }
 
 #mute > * {
@@ -125,6 +124,9 @@ body {
   font-size: 14px;
 }
 
+#mute-button, #volume-button {
+  height: 17px;
+}
 
 #body-one, #body-two, #body-three, #body-four {
   z-index: 10;
