@@ -1,0 +1,184 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px !important;
+  max-width: 300px;
+  max-height: 600px;
+}
+
+.banner {
+	margin: 0px !important;
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 300px;
+	height: 600px;
+	display: flex;
+	justify-content: space-between;
+	align-items: left;
+	flex-direction: column;
+	background-color: #ffffff;
+	overflow: hidden;
+	border: 1px solid black;
+	user-drag: none !important;
+}
+
+.background, #body-one, #body-two, #body-three, #body-four {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+	top: 0;
+	left: 0;
+	user-drag: none !important;
+	-webkit-user-drag: none !important;
+}
+
+.play {
+  max-height: 95px;
+  position: absolute;
+  top: 57px;
+  right: 108px;
+}
+
+.video-container {
+  width: 300px;
+  height: 250px;
+  position: absolute;
+  top: 0;
+}
+
+.video-container video {
+  position: absolute;
+  left: -7px;
+  top: 0px;
+  width: 374px;
+  height: 211px;
+  overflow: hidden;
+  opacity: 0;
+}
+
+.vid-click-container {
+  position: absolute;
+  top: 0px;
+  width: 300px;
+  height: 181px;
+  z-index: 5000;
+}
+
+.vid-click-container:hover {
+  cursor: pointer !important;
+}
+
+.video-controls {
+  position: absolute;
+  top: 10px;
+  z-index: 500;
+}
+
+#play-pause {
+  position: absolute;
+  top: 41px;
+  left: 105px;
+  height: 80px;
+  width: 80px;
+}
+
+#play-pause:hover {
+  cursor: pointer !important;
+  opacity: 1 !important;
+}
+
+#pause-button {
+  position: absolute;
+  top: 58px;
+  left: 122px;
+  height: 45px;
+  width: 45px;
+}
+
+#mute {
+  position: absolute;
+  top: 171px;
+  left: 254px;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px;
+  outline: none;
+}
+
+#mute:hover {
+  cursor: pointer;
+}
+
+#mute:hover > * {
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#mute > * {
+  color: white;
+  font-size: 14px;
+}
+
+
+#body-one, #body-two, #body-three, #body-four {
+  z-index: 10;
+}
+
+#body-two, #body-three, #body-four {
+  opacity: 0;
+}
+
+.rec-container {
+  z-index: 200;
+  position: absolute;
+  top: 245px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 109px;
+  right: 22px;
+}
+
+.rec-container:hover {
+  cursor: pointer;
+}
+
+.rec {
+  width: 16px;
+  height: 16px;
+  background-color: #705c1a;
+  z-index: 300;
+}
+
+.rec:hover {
+  background-color: #ffd400 !important;
+}
+
+.selected {
+  background-color: #ffd400;
+}
+
+.innerClick {
+  width: 300px;
+  height: 417px;
+  position: absolute;
+  bottom: 0;
+  z-index: 100;
+}
+
+
+
+
+
+
+
+
+
+
