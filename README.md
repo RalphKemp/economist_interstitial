@@ -1,1 +1,1 @@
-double mpu banner for Economist client. 
+interstitial banner for Economist client.
