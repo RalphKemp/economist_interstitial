@@ -261,10 +261,44 @@ body {
 
 }
 
-@media(min-width:1200px) {
+@media(min-width:1024px) {
   .banner {
     width: 1024px;
     height: 768px;
+  }
+
+  .innerClick {
+    height: 768px;
+  }
+
+  .innerClickTop {
+    display: none;
+  }
+
+  .logo-container {
+    height: 250px;
+  }
+
+  .images-container {
+    height: 500px;
+  }
+
+  .video-container {
+    z-index: 100;
+    height: 475px;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .video-container iframe {
+  }
+
+  #logo {
+    bottom: 108px;
+    left: 68px;
+    width: 22%;
   }
 
 }
