@@ -196,9 +196,67 @@ body {
 }
 
 @media(min-width:768px) {
+  .innerClickTop {
+    width: 100%;
+    height: 165px;
+  }
+
+  .innerClick {
+    width: 100%;
+    height: 435px;
+  }
+
   .banner {
     width: 768px;
     height: 1024px;
+  }
+
+  .images-container {
+    height: 437px;
+  }
+
+  .logo-container {
+    height: 203px;
+  }
+
+  .video-container {
+    height: 392px;
+    top: 167px;
+  }
+
+  .video-container iframe {
+    width: 768px !important;
+    height: 420px !important;
+  }
+
+  #logo {
+    bottom: 54px;
+    left: 16px;
+    width: 30%;
+  }
+
+  #watch {
+    bottom: 34px;
+    right: 37px;
+    width: 34%;
+  }
+
+  #steel-logo {
+    bottom: 276px;
+    left: 49px;
+    width: 43%;
+  }
+
+  #cta {
+    bottom: 134px;
+    left: 40px;
+    width: 33%;
+  }
+
+  #copy {
+    bottom: 226px;
+    left: 47px;
+    width: 44%;
   }
 
 }
