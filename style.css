@@ -293,12 +293,39 @@ body {
   }
 
   .video-container iframe {
+    width: 804px !important;
+    height: 455px !important;
   }
 
   #logo {
-    bottom: 108px;
-    left: 68px;
-    width: 22%;
+    bottom: 159px;
+    left: 109px;
+    width: 20%;
+  }
+
+  #cta {
+    bottom: 69px;
+    left: 638px;
+    width: 28%;
+  }
+
+  #watch {
+    bottom: 42px;
+    left: 92px;
+    z-index: 101;
+    width: 19%;
+  }
+
+  #steel-logo {
+    bottom: 76px;
+    left: 288px;
+    width: 29%;
+  }
+
+  #copy {
+    bottom: 32px;
+    left: 288px;
+    width: 33%;
   }
 
 }
