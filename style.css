@@ -224,17 +224,17 @@ body {
 
   .video-container {
     height: 392px;
-    top: 167px;
+    top: 155px;
   }
 
   .video-container iframe {
     width: 768px !important;
-    height: 420px !important;
+    height: 432px !important;
   }
 
   #logo {
-    bottom: 54px;
-    left: 16px;
+    bottom: 65px;
+    left: 18px;
     width: 30%;
   }
 
