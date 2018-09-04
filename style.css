@@ -48,7 +48,7 @@ body {
 }
 
 .video-container iframe {
-  width: 321px !important;
+  width: 325px !important;
   height: 181px !important;
 }
 
@@ -67,6 +67,7 @@ body {
 }
 
 #watch {
+  opacity: 0;
   position: absolute;
   bottom: 26px;
   right: 9px;
@@ -78,6 +79,7 @@ body {
   bottom: 129px;
   left: 20px;
   width: 43%;
+  opacity: 0;
 }
 
 #copy {
@@ -92,6 +94,7 @@ body {
   bottom: 80px;
   left: 18px;
   width: 42%;
+  opacity: 0;
 }
 
 /*.video-container video {
