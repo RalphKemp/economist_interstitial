@@ -97,91 +97,6 @@ body {
   opacity: 0;
 }
 
-/*.video-container video {
-  position: absolute;
-  left: -7px;
-  top: 0px;
-  width: 374px;
-  height: 211px;
-  overflow: hidden;
-  opacity: 0;
-}
-
-.play {
-  max-height: 95px;
-  position: absolute;
-  top: 57px;
-  right: 108px;
-}
-
-.vid-click-container {
-  position: absolute;
-  top: 0px;
-  width: 300px;
-  height: 181px;
-  z-index: 5000;
-}
-
-.vid-click-container:hover {
-  cursor: pointer !important;
-}
-
-.video-controls {
-  position: absolute;
-  top: 10px;
-  z-index: 500;
-}
-
-#play-pause {
-  position: absolute;
-  top: 41px;
-  left: 105px;
-  height: 80px;
-  width: 80px;
-}
-
-#play-pause:hover {
-  cursor: pointer !important;
-  opacity: 1 !important;
-}
-
-#pause-button {
-  position: absolute;
-  top: 58px;
-  left: 122px;
-  height: 45px;
-  width: 45px;
-}
-
-#mute {
-  position: absolute;
-  top: 171px;
-  left: 251px;
-  background-color: transparent;
-  border: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 5px 10px;
-  outline: none;
-}
-
-#mute:hover {
-  cursor: pointer;
-}
-
-#mute:hover > * {
-  cursor: pointer;
-}
-
-#mute > * {
-  color: white;
-  font-size: 14px;
-}
-
-#mute-button, #volume-button {
-  height: 17px;
-}*/
 .innerClickTop {
   width: 318px;
   height: 80px;
@@ -307,14 +222,14 @@ body {
   }
 
   #cta {
-    bottom: 69px;
+    bottom: 87px;
     left: 638px;
-    width: 28%;
+    width: 26%;
   }
 
   #watch {
     bottom: 42px;
-    left: 92px;
+    left: 74px;
     z-index: 101;
     width: 19%;
   }
