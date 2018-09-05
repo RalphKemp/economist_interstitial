@@ -1,12 +1,9 @@
-* {
-  box-sizing: border-box;
-}
-
 body {
   margin: 0px !important;
 }
 
 .banner-container {
+  box-sizing: border-box;
   height: 100vh;
   width: 100%;
   display: flex;
@@ -15,12 +12,20 @@ body {
   background-color: grey;
 }
 
+.banner-outer {
+  min-width: 320px;
+  min-height: 480px;
+  background-color: #d2d2d2;
+  display: flex;
+  justify-content: center;
+}
+
 .banner {
   margin: 0px !important;
   position: relative;
   top: 0;
   left: 0;
-  min-width: 320px;
+  width: 272px;
   min-height: 480px;
   display: flex;
   justify-content: space-between;
@@ -48,20 +53,21 @@ body {
 }
 
 .video-container iframe {
-  width: 325px !important;
-  height: 181px !important;
+  width: 272px !important;
+  height: 180px !important;
 }
 
 .logo-container {
   position: relative;
   width: 100%;
-  height: 105px;
+  height: 96px;
   background-color: white;
+  z-index: 2;
 }
 
 #logo {
   position: absolute;
-  bottom: 36px;
+  bottom: 15px;
   left: 11px;
   width: 42%;
 }
@@ -124,13 +130,21 @@ body {
     height: 435px;
   }
 
-  .banner {
+  .banner-outer {
     width: 768px;
+    height: 1024px;
+    background-color: #d2d2d2;
+    display: flex;
+    justify-content: center;
+  }
+
+  .banner {
+    width: 653px;
     height: 1024px;
   }
 
   .images-container {
-    height: 437px;
+    height: 481px;
   }
 
   .logo-container {
@@ -143,36 +157,36 @@ body {
   }
 
   .video-container iframe {
-    width: 768px !important;
-    height: 432px !important;
+    width: 653px !important;
+    height: 388px !important;
   }
 
   #logo {
-    bottom: 65px;
+    bottom: 23px;
     left: 18px;
-    width: 30%;
+    width: 37%;
   }
 
   #watch {
-    bottom: 34px;
-    right: 37px;
-    width: 34%;
+    bottom: 56px;
+    right: 31px;
+    width: 37%;
   }
 
   #steel-logo {
-    bottom: 276px;
-    left: 49px;
-    width: 43%;
+    bottom: 312px;
+    left: 48px;
+    width: 45%;
   }
 
   #cta {
-    bottom: 134px;
+    bottom: 150px;
     left: 40px;
-    width: 33%;
+    width: 37%;
   }
 
   #copy {
-    bottom: 226px;
+    bottom: 256px;
     left: 47px;
     width: 44%;
   }
@@ -180,8 +194,13 @@ body {
 }
 
 @media(min-width:1024px) {
-  .banner {
+  .banner-outer {
     width: 1024px;
+    height: 768px;
+  }
+
+  .banner {
+    width: 870px;
     height: 768px;
   }
 
@@ -211,39 +230,41 @@ body {
   }
 
   .video-container iframe {
-    width: 804px !important;
-    height: 455px !important;
+    width: 747px !important;
+    height: 415px !important;
   }
 
   #logo {
-    bottom: 159px;
-    left: 109px;
-    width: 20%;
+    bottom: 137px;
+    left: 62px;
+    width: 21%;
   }
 
   #cta {
-    bottom: 87px;
-    left: 638px;
-    width: 26%;
+    bottom: 113px;
+    left: 599px;
+    width: 24%;
   }
 
   #watch {
-    bottom: 42px;
-    left: 74px;
+    bottom: 43px;
+    left: 63px;
     z-index: 101;
     width: 19%;
   }
 
   #steel-logo {
-    bottom: 76px;
-    left: 288px;
+    bottom: 108px;
+    left: 275px;
     width: 29%;
   }
 
   #copy {
-    bottom: 32px;
-    left: 288px;
-    width: 33%;
+    bottom: 64px;
+    left: 274px;
+    width: 34%;
   }
+
+}
 
 }
